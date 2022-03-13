@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+            <script defer src="{{ mix('js/app.js') }}"></script>
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -45,13 +46,13 @@
                         </g>
                     </svg>
                 </div>
-                <example-component/>
+               <example-component></example-component>
                 <h1 class="bg-blue-400 font-semibold text-3xl"> halo</h1>
 
               
             </div>
         </div>
-         <script src="js/app.js">
+      
         
     </script>
     </body>

@@ -7,7 +7,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body bg-blue-400">
-                        I'm an example component.ss
+                        I'm an example component.ssSAD
                     </div>
                 </div>
             </div>
