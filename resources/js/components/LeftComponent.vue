@@ -53,7 +53,7 @@
             <input type="number" name="" class="w-full rounded-xl px-4 text-center py-1">
             <button class="font-semibold text-xl absolute inset-y-0 right-4">+</button>
         </div>
-        <button class="bg-blue-500 py-2.5 w-full rounded-lg font-semibold tracking-widest">Add to cart</button>
+        <button class="bg-blue-500 py-2.5 w-full rounded-lg font-semibold tracking-widest cursor-pointer hover:bg-blue-600 z-10 duration-300">Add to cart</button>
     </div>
 </div>
 </div>

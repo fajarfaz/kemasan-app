@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script defer src="{{ mix('js/app.js') }}"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+<script src="https://unpkg.com/vue-router@4"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Laravel</title>
-
-    <!-- Fonts -->
-
-
-    <!-- Styles -->
-
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;800&display=swap');
@@ -28,7 +24,7 @@
     @if (Route::has('login'))
     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
         @auth
-        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
         @else
         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
@@ -44,11 +40,10 @@
             <label>PUSAT KEMASAN</label>
         </div>
         <div class="flex flex-row font-semibold items-center space-x-10">
-            <label>Home</label>
+            <label>Dashboard</label>
             <label>Product</label>
             <label>Contact</label>
-            <label class="bg-yellow-400">About Us</label>
-            
+            <label class="bg-yellow-400">About Us</label>            
         </div>
     </div>
     <div class="w-full grid grid-cols-3 h-full relative gap-4">
